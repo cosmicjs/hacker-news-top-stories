@@ -5,10 +5,10 @@ This Cosmic JS Extension allows you to pull in the top news from Hacker News and
 This Extension demonstrates how to easily build Cosmic JS Extensions to connect to third-party APIs to save data to your Bucket.
 
 ### It uses:
-1. The Algolia Hacker News API
-2. Create React App
-3. Cosmic JS Extensions
-4. Cosmic JS to save stories to an API endpoint
+1. [The Algolia Hacker News API](https://hn.algolia.com/api)
+2. [Create React App](https://github.com/facebookincubator/create-react-app)
+3. [Cosmic JS Extensions](https://cosmicjs.com/extensions)
+4. [Cosmic JS](https://cosmicjs.com) to save stories to an API endpoint
 
 ## Getting Started
 ### Run locally
@@ -18,7 +18,8 @@ cd hacker-news-story-saver
 yarn
 npm start
 ```
+Go to http://localhost:3000?bucket_slug=your-cosmic-js-bucket-slug
 ### Install in your Cosmic JS Bucket
-1. Create a new Bucket in your Cosmic JS Account (or use an existing Bucket)
-2. Go to Your Bucket > Extensions
-3. Find the HN Story Saver and click Install
+1. [Log in to Cosmic JS](https://cosmicjs.com) and choose a new or existing Bucket to save your Stories.
+2. Go to Your Bucket > Extensions.
+3. Find the HN Story Saver and click Install.
