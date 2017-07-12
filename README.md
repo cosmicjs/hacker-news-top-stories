@@ -1,4 +1,5 @@
 # Hacker News Story Saver
+![Hacker News Story Saver](https://cosmicjs.com/uploads/92d1fe20-6736-11e7-93bc-378cbd5c667a-hn-cosmic.jpg)
 This Cosmic JS Extension allows you to pull in the top news from Hacker News and save your favorite stories to your Cosmic JS Bucket.  Easily access your favorite stories via your own personal endpoint for use in any internet connected application.
 
 ### Why?
