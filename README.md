@@ -1,5 +1,8 @@
 # Hacker News Story Saver
-This Cosmic JS Extension allows you to pull in the top news from Hacker News and save your favorite stories to your Cosmic JS Bucket.  Easily access your favorite stories via your own personal endpoint for use in any internet connected application.  This demonstrates how to easily build Cosmic JS Extensions to connect to third-party APIs to save data to your Bucket.
+This Cosmic JS Extension allows you to pull in the top news from Hacker News and save your favorite stories to your Cosmic JS Bucket.  Easily access your favorite stories via your own personal endpoint for use in any internet connected application.
+
+### Why?
+This Extension demonstrates how to easily build Cosmic JS Extensions to connect to third-party APIs to save data to your Bucket.
 
 ### It uses:
 1. The Algolia Hacker News API
