@@ -1,0 +1,33 @@
+.App {
+  padding-bottom: 60px;
+}
+.App-header {
+  text-align: center;
+}
+.hn-item {
+  padding: 5px 0 10px;
+  content: "";
+  display: table;
+  clear: both;
+}
+.hn-item__save {
+  margin-right: 20px;
+}
+.hn-item__save-button,
+.hn-item__info {
+  float: left;
+}
+.hn-item__save-button {
+  padding-top: 4px;
+}
+.hn-item__title {
+  font-size: 16px;
+  line-height: 24px;
+}
+.hn-item__title a {
+  color: #333;
+}
+.hn-item__meta {
+  font-size: 13px;
+  color: #666;
+}
