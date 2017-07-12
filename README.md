@@ -15,6 +15,10 @@ This Extension demonstrates how to connect to third-party APIs to easily add con
 5. [Cosmic JS NPM Module](https://www.npmjs.com/package/cosmicjs) to save stories to your Bucket
 
 ## Getting Started
+### Quick Install
+1. [Log in to Cosmic JS](https://cosmicjs.com) and choose a new or existing Bucket to save your Stories.
+2. Go to Your Bucket > Extensions.
+3. Find the HN Story Saver Extension and click "Install".
 ### Run locally
 ```
 git clone https://github.com/cosmicjs/hacker-news-story-saver
@@ -23,7 +27,3 @@ yarn
 npm start
 ```
 Go to http://localhost:3000?bucket_slug=your-cosmic-js-bucket-slug
-### Install in your Cosmic JS Bucket
-1. [Log in to Cosmic JS](https://cosmicjs.com) and choose a new or existing Bucket to save your Stories.
-2. Go to Your Bucket > Extensions.
-3. Find the HN Story Saver Extension and click "Install".
