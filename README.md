@@ -5,7 +5,7 @@ This Cosmic JS Extension allows you to pull in the top news from Hacker News and
 ![Hacker News Story Saver Gif](https://cosmicjs.com/uploads/24ab0760-6737-11e7-aedc-4bbbfe350faa-hn-cosmic.gif)
 
 ### Why?
-This Extension demonstrates how to connect to third-party APIs for easy adding to your Cosmic JS Bucket.
+This Extension demonstrates how to connect to third-party APIs to easily add content to your Cosmic JS Bucket.
 
 ### It uses:
 1. [The Algolia Hacker News API](https://hn.algolia.com/api)
