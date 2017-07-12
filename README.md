@@ -8,7 +8,7 @@ This Extension demonstrates how to easily build Cosmic JS Extensions to connect 
 1. [The Algolia Hacker News API](https://hn.algolia.com/api)
 2. [Create React App](https://github.com/facebookincubator/create-react-app)
 3. [Cosmic JS Extensions](https://cosmicjs.com/extensions)
-4. [Cosmic JS](https://cosmicjs.com) to save stories to an API endpoint
+4. [Cosmic JS](https://cosmicjs.com) to save stories to your Bucket
 
 ## Getting Started
 ### Run locally
