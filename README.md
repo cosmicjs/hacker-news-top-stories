@@ -12,7 +12,7 @@ This Extension demonstrates how to connect to third-party APIs to easily add con
 2. [Create React App](https://github.com/facebookincubator/create-react-app)
 3. [Semantic UI React](http://react.semantic-ui.com/)
 4. [Cosmic JS Extensions](https://cosmicjs.com/extensions)
-5. [Cosmic JS](https://cosmicjs.com) to save stories to your Bucket
+5. [Cosmic JS NPM Module](https://www.npmjs.com/package/cosmicjs) to save stories to your Bucket
 
 ## Getting Started
 ### Run locally
