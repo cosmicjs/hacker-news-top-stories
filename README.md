@@ -22,4 +22,4 @@ Go to http://localhost:3000?bucket_slug=your-cosmic-js-bucket-slug
 ### Install in your Cosmic JS Bucket
 1. [Log in to Cosmic JS](https://cosmicjs.com) and choose a new or existing Bucket to save your Stories.
 2. Go to Your Bucket > Extensions.
-3. Find the HN Story Saver and click Install.
+3. Find the HN Story Saver Extension and click "Install".
