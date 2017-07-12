@@ -2,7 +2,7 @@
 This Cosmic JS Extension allows you to pull in the top news from Hacker News and save your favorite stories to your Cosmic JS Bucket.  Easily access your favorite stories via your own personal endpoint for use in any internet connected application.
 
 ### Why?
-This Extension demonstrates how to connect to third-party APIs using Cosmic JS Extensions.
+This Extension demonstrates how to connect to third-party APIs using Cosmic JS Extensions.  Forks welcome!
 
 ### It uses:
 1. [The Algolia Hacker News API](https://hn.algolia.com/api)
