@@ -160,7 +160,7 @@ class App extends Component {
       <div className='App'>
         <Container className='App-header'>
           <Icon name='hacker news' style={{ color: '#ff6600', marginTop: 20 }} size='massive' />
-          <h1 style={{ marginBottom: 30, marginTop: 10 }}>Hacker News Story Saver</h1>
+          <h1 style={{ marginBottom: 30, marginTop: 10 }}>Hacker News Top Stories</h1>
         </Container>
         <Container>
           <Menu pointing style={{ marginBottom: 20 }}>
