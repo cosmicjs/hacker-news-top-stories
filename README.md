@@ -5,15 +5,15 @@ A [Cosmic JS](https://cosmicjs.com) Extension that allows you to pull in the top
 
 ![Hacker News Story Saver Gif](https://cosmicjs.com/uploads/24ab0760-6737-11e7-aedc-4bbbfe350faa-hn-cosmic.gif)
 
-### Why?
-It demonstrates how to connect your Cosmic JS Extension to third-party APIs to easily add content to your Cosmic JS Bucket.
-
 ### It uses:
 1. [The Algolia Hacker News API](https://hn.algolia.com/api)
 2. [Create React App](https://github.com/facebookincubator/create-react-app)
 3. [Semantic UI React](http://react.semantic-ui.com/)
 4. [Cosmic JS Extensions](https://cosmicjs.com/extensions)
 5. [Cosmic JS NPM Module](https://www.npmjs.com/package/cosmicjs) to save stories to your Bucket
+
+### Why?
+It demonstrates how to connect your Cosmic JS Extension to third-party APIs to easily add content to your Cosmic JS Bucket.
 
 ## Getting Started
 ### Quick install
