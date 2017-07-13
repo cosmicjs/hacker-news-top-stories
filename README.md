@@ -24,8 +24,8 @@ It demonstrates how to connect your Cosmic JS Extension to third-party APIs to e
 ![Hacker News Story Install Gif](https://cosmicjs.com/uploads/2c09b270-677f-11e7-9498-65fe238924be-hn-ext.gif)
 ### Run locally
 ```
-git clone https://github.com/cosmicjs/hacker-news-story-saver
-cd hacker-news-story-saver
+git clone https://github.com/cosmicjs/hacker-news-top-stories
+cd hacker-news-top-stories
 yarn
 npm start
 ```
