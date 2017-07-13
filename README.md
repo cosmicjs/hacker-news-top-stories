@@ -20,6 +20,7 @@ It demonstrates how to connect your Cosmic JS Extension to third-party APIs to e
 1. [Log in to Cosmic JS](https://cosmicjs.com) and choose a new or existing Bucket to save your Hacker News stories.
 2. Go to Your Bucket > Extensions.
 3. Find the HN Story Saver Extension and click "Install".
+![Hacker News Story Install Gif](https://cosmicjs.com/uploads/bd639610-677e-11e7-8366-3de1273ecf0b-hn-ext.gif)
 ### Run locally
 ```
 git clone https://github.com/cosmicjs/hacker-news-story-saver
