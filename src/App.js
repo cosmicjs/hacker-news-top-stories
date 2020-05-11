@@ -70,6 +70,7 @@ class App extends Component {
     Object.keys(story).forEach(function(key) {
       if (key !== '_highlightResult') {
         const metafield = {
+          title: key,
           key,
           value: story[key],
           type: 'text'
@@ -77,6 +78,7 @@ class App extends Component {
         params.metafields.push(metafield)
       }
     })
+    params.write_key = config.bucket.write_key;
     Cosmic.addObject(config, params, (err, res) => {
       let saved_stories = this.state.saved_stories
       if (!saved_stories)
@@ -99,7 +101,8 @@ class App extends Component {
         saved_story = story_loop
     })
     const params = {
-      slug: saved_story.slug
+      slug: saved_story.slug,
+      write_key: config.bucket.write_key
     }
     Cosmic.deleteObject(config, params, (err, res) => {
       let saved_stories = this.state.saved_stories
@@ -166,7 +169,7 @@ class App extends Component {
           <Menu pointing style={{ marginBottom: 20 }}>
             <Menu.Item active={activeItem === 'top_stories'} onClick={this.handleMenuItemClick.bind(this, 'top_stories')} style={{ cursor: 'pointer' }}><Icon name='arrow up' />&nbsp;&nbsp;Top Stories</Menu.Item>
             <Menu.Item active={activeItem === 'saved_stories'} onClick={this.handleMenuItemClick.bind(this, 'saved_stories')} style={{ cursor: 'pointer' }}><Icon name='star' />&nbsp;&nbsp;Saved Stories</Menu.Item>
-            <Menu.Item name='Endpoint'><img alt="logo" style={{ width: 20 }} src="https://cosmicjs.com/images/logo.svg" />&nbsp;&nbsp;&nbsp;&nbsp;<a href={ 'https://api.cosmicjs.com/v1/' + config.bucket.slug + '/object-type/stories?pretty=true&hide_metafields=true'} target="_blank">Saved Stories Endpoint</a>&nbsp;&nbsp;&nbsp;<Icon name='external' color='blue' /></Menu.Item>
+            <Menu.Item name='Endpoint'><img alt="logo" style={{ width: 20 }} src="https://cosmicjs.com/images/logo.svg" />&nbsp;&nbsp;&nbsp;&nbsp;<a href={ `https://api.cosmicjs.com/v1/${config.bucket.slug}/object-type/stories?pretty=true&hide_metafields=true&read_key=${config.bucket.read_key}`} target="_blank">Saved Stories Endpoint</a>&nbsp;&nbsp;&nbsp;<Icon name='external' color='blue' /></Menu.Item>
           </Menu>
           {
             this.state.bucket_error &&

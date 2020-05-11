@@ -2,6 +2,7 @@
   "title": "HN Top Stories",
   "font_awesome_class": "fa-hacker-news",
   "image_url": "https://cosmicjs.com/uploads/c21b2000-6694-11e7-9685-7984c518abf8-hn.svg",
+  "repo_url": "https://github.com/cosmicjs/hacker-news-top-stories",
   "object_types": [
     {
       "title": "Stories",
